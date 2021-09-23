@@ -24,5 +24,12 @@
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie"
-    }
+    },
+    "redirects": [
+        {
+            "source": "http://threesixty-server.vercel.app/:path",
+            "destination": "https://threesixty-server.vercel.app/:path",
+            "type": 301
+        }
+    ]
 }
