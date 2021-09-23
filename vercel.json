@@ -28,8 +28,7 @@
     "redirects": [
         {
             "source": "http://threesixty-server.vercel.app/:path",
-            "destination": "https://threesixty-server.vercel.app/:path",
-            "type": 301
+            "destination": "https://threesixty-server.vercel.app/:path"
         }
     ]
 }
